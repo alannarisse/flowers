@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,300;1,100;1,300&family=Public+Sans:ital,wght@0,300;1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'Public Sans', sans-serif;
+    margin:0;
+}
+img {
+    width:100%;
+}
+.desc {
+    display:flex;
+}
+h1.big {
+    font-size:220px;
+}
+.arborvitae h1.big {
+color:aquamarine;
+}
+.arborvitae .desc {
+    justify-content: flex-end;
+    margin-right:60px;
+    width:80%;
+    margin:auto;
+}
+.arborvitae .desc p{
+    width: 45%;
+}
+.callalily .desc {
+    justify-content: flex-end;
+    margin-right:60px;
+    width:80%;
+    margin:auto;
+}
+.callalily .desc p{
+    width: 65%;
+}
+
+.flexbox {
+    display:flex;
+    width:80%;
+    margin:auto;
+}
+.flexbox div {
+    flex:1;
+}
+
+.flexbox .left {
+ padding-right:40px;
+}
+
+/* .arborvitae h3::before {
+    content: url('assets/arb-icon.png');
+} */
+.arborvitae h3 {
+    background-image:url('assets/arb-icon.png');
+    background-repeat: no-repeat;
+    background-size:60px;
+    background-position: 0 0;
+    overflow:visible;
+    padding-left:20px;
+    padding-top:10px;
+    margin:0;
+}
+body.arborvitae {
+background-image:url('assets/arborgraphic-bg.png');
+background-size:60%;
+background-repeat:no-repeat;
+background-position: 0% 200px;
+}
+h1.title  {
+    justify-content: center;
+    align-items: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 100;
+    font-size: 128pt;
+    text-align: center;
+    margin-top: -63vh;
+    z-index:-9;
+    padding: 0;
+}
+
+.arborvitae h1 {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 100;
+    font-size: 128pt;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 100;
+    font-size: 45pt;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    padding: 30px;
+}
+
+.navbar img {
+    width: 100px;
+}
+
+.navgrid {
+    width:50%;
+    margin:auto;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.navgrid div {
+    flex:50%;
+}
+.navgrid img {
+    z-index:99;
+}
